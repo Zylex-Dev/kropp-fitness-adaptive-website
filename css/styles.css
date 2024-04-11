@@ -1,7 +1,7 @@
 /* подключим шрифты (через дерективу @font-face) */
 @font-face {
     font-family: 'Heebo';
-    src: url('./fonts/Heebo-Light.woff2') format('woff2');
+    src: url('../fonts/Heebo-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     /* если файл шрифта вдруг не будет загружен */
@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family: 'Heebo';
-    src: url('./fonts/Heebo-Bold.woff2') format('woff2');
+    src: url('../fonts/Heebo-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     /* если файл шрифта вдруг не будет загружен */
@@ -17,7 +17,7 @@
 }
 @font-face {
     font-family: 'Yantramanav';
-    src: url('./fonts/Yantramanav-Bold.woff2') format('woff2');
+    src: url('../fonts/Yantramanav-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     /* если файл шрифта вдруг не будет загружен */
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
     right: calc(100% + 8px);
     width: 26px;
     aspect-ratio: 1;
-    background: url('./icons/plus.svg') center/contain no-repeat;
+    background: url('../icons/plus.svg') center/contain no-repeat;
 }
 .backdrop-title::after {
     content: attr(data-title);
@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     height: 100%;
     aspect-ratio: 1;
-    background: url('./icons/arrow-up-right.svg') center/70% no-repeat;
+    background: url('../icons/arrow-up-right.svg') center/70% no-repeat;
     border: var(--border);
     border-radius: 50%;
     right: 0;
@@ -506,7 +506,7 @@ input[type=number] {
     aspect-ratio: 1;
     margin-right: 30px;
     /* расположение/заполнить все свободное пространство с сохранением пропорций и отключение повтора иконки по осям */
-    background: url('./icons/bold-arrow-down-right.svg') center/contain no-repeat;
+    background: url('../icons/bold-arrow-down-right.svg') center/contain no-repeat;
 }
 
 .banner-title {
@@ -609,7 +609,7 @@ input[type=number] {
     row-gap: 32px;
 
     padding-top: var(--trainingTypesItemBgIconSize);
-    background: url("./icons/transparent-arrow-bottom-left.svg") 100% 0 / var(--trainingTypesItemBgIconSize) no-repeat;
+    background: url("../icons/transparent-arrow-bottom-left.svg") 100% 0 / var(--trainingTypesItemBgIconSize) no-repeat;
 }
 
 .training-types-item-title {
@@ -634,7 +634,7 @@ input[type=number] {
     justify-content: center;
     align-items: center;
     padding: 150px 30px;
-    background: url("./images/join-us/join-us-bg.jpg") center/cover no-repeat var(--color-dark-alternate);
+    background: url("../images/join-us/join-us-bg.jpg") center/cover no-repeat var(--color-dark-alternate);
 }
 
 .join-us-video-play-button {
@@ -663,7 +663,7 @@ input[type=number] {
     content: '';
     width: 26px;
     aspect-ratio: 1;
-    background: url("./icons/arrow-up-right.svg") center/contain no-repeat;
+    background: url("../icons/arrow-up-right.svg") center/contain no-repeat;
     transition-duration: var(--transition-duration);    
 }
 
@@ -694,7 +694,7 @@ input[type=number] {
     height: 0.7em;
     aspect-ratio: 1;
     margin-left: 0.14em;
-    background: url("./icons/bold-arrow-down-right.svg") center/contain no-repeat;
+    background: url("../icons/bold-arrow-down-right.svg") center/contain no-repeat;
     scale: 1 -1;
 }
 
@@ -978,7 +978,7 @@ input[type=number] {
     height: 0.74em;
     aspect-ratio: 1;
     margin-left: 0.5em;
-    background: url("./icons/bold-arrow-down-right.svg") center/contain no-repeat;
+    background: url("../icons/bold-arrow-down-right.svg") center/contain no-repeat;
     scale: -1 1; 
 }
 
@@ -999,7 +999,7 @@ input[type=number] {
     background-color: transparent;
     border: var(--border);
     border-radius: 50%;
-    background: url('./icons/arrow-up-right.svg') center/70% no-repeat;
+    background: url('../icons/arrow-up-right.svg') center/70% no-repeat;
 }
 
 .footer-subscribe-button:hover {
